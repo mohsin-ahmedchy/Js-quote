@@ -1,0 +1,42 @@
+body{
+    min-height: 100vh;
+    background-color:#a6f6f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 80%;
+    padding: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 8px;
+}
+#btn{
+    color: black;
+    background-color:#a6f6f1;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+#btn:hover{
+    font-weight: bold;
+}
+blockquote{
+    background-color: #fff8cd;
+    margin-top: 40px;
+    padding: 25px;
+    border-radius: 7px;
+    border-left: 20px solid red;
+}
+#author{
+    margin-top: 40px;
+    font-size: 20px;
+}
